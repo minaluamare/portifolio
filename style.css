@@ -1,0 +1,127 @@
+body{
+    background-color: white;
+
+}
+
+ .contact-information{ 
+    margin-top: 16px;
+    border-radius: 6px;
+    padding: 16px;
+}
+.navbar a{
+    font-size: medium;
+    text-decoration:none;
+    cursor: pointer;
+    color: white;
+}
+.navbar a:hover{
+    color: rgb(255, 47, 92);
+    background: wheat;
+}
+.navbar a:active{
+    color: aqua;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 50px ;
+     overflow: hidden;
+     background-color: black;
+    
+  
+
+}
+.navbar li{
+    flex: 1;
+    text-align: right;
+   
+}
+#Home{
+    background-color: cornflowerblue;
+    padding: 50px 120px;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+
+}
+#Home img{
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    border-right: 35px;
+    margin-left: auto;
+    display: block;
+    margin: 0 auto;
+    align-self: center;
+   
+
+   
+}
+#Skills{
+    padding: 40px;
+}
+#About-me{
+    background-color: rgb(220, 255, 237);
+    padding: auto;
+}
+footer{
+  color:whitesmoke;
+  background-color: black;
+   font-size: 20px;
+   padding: 25px 35px;
+   text-align: center;
+   font-size: 17px;
+   margin-top: 25px;
+   font-weight: bolder;
+}
+#contacts{
+    padding: 40px 24px;
+
+}
+.back-to-top{
+    text-decoration: none;
+    font-weight: bold;
+    color:cyan;
+}
+footer p{
+    margin: 0 0 10px 0;;
+}
+.back-to-top:hover{
+    text-decoration: underline;
+    color:gold ;
+}
+.skills-boxes {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-top: 14px;
+}
+
+.skill-box {
+    flex: 1;
+    min-width: 220px;
+    background-color: rgb(53, 47, 47);
+    border: 2px solid rgb(95, 104, 122);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.skill-box h3 {
+    color: #93c5fd;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #2d3342;
+}
+
+.skill-box ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.skill-box li {
+    margin-bottom: 10px;
+    color: white;
+}
